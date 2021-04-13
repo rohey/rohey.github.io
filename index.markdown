@@ -7,4 +7,4 @@ layout: home
 
 The hypernet library allows training hypernets, the neural artificial networks that generate weigts for other so called target nets.
 
-![My helpful screenshot](/assets/anim.gif)
+#![My helpful screenshot](/assets/anim.gif)
