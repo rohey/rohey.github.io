@@ -5,6 +5,20 @@
 layout: home
 ---
 
-The hypernet library allows training hypernets, the neural artificial networks that generate weigts for other so called target nets.
+## Welcome to the **hypnn** documentation page !
 
-#![My helpful screenshot](/assets/anim.gif)
+
+The **hypnn** library allows training hypernets, the neural artificial networks that generate weigts for other so called target nets. 
+The **hypnn** library can be used for the following:
+
+
+
+* Multimodal optimization
+
+![My helpful screenshot](/assets/anim.gif)
+
+* Uncertainty estimation in regression tasks
+
+![My helpful screenshot](/assets/regression.png)
+
+* Uncertainty estimation in classification tasks
