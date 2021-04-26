@@ -15,10 +15,18 @@ The **hypnn** library can be used for the following:
 
 * Multimodal optimization
 
-![My helpful screenshot](/assets/anim.gif)
+
+<p align="center">
+<img alt="Data preprocessing" title="Data preprocessing" src="/assets/anim.gif" width="650">
+</p>
+
 
 * Uncertainty estimation in regression tasks
 
-![My helpful screenshot](/assets/regression.png)
+<p align="center">
+<img alt="Data preprocessing" title="Data preprocessing" src="/assets/regression.png" width="650">
+</p>
+
+
 
 * Uncertainty estimation in classification tasks
