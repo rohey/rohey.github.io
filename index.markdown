@@ -5,8 +5,8 @@
 layout: home
 ---
 
-## Welcome to the **hypnn** documentation page !
-
+## boom
+[]: # Welcome to the **hypnn** documentation page !
 
 A neural network that generates weights for other neural networks is called a hypernet. The **hypnn** library allows training hypernets for different purposes such as:
 
@@ -42,3 +42,13 @@ that is how sure the network in its predictions especially when the new data is 
 
 
 * Uncertainty estimation in classification tasks. *Similar to the regression tasks, the uncertainty tells how sure the network is when classyfying data.*
+
+
+<p align="center">
+ <table style="width:100%">
+  <tr>
+    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/Figure_1.png" width="width:100%"></td>
+    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/Figure_2.png" width="width:100%"></td>
+  </tr>
+</table>
+</p>
