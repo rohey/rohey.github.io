@@ -8,7 +8,8 @@ title:  Introduction
 
 ##  Welcome to the **hypnn** documentation page !
 
-A neural network that generates weights for other neural networks is called a hypernet. The **hypnn** library allows training hypernets for different purposes such as:
+A neural network that generates weights for other neural networks is called a hypernet. The **hypnn** library allows training hypernets for different purposes such as: 
+multimodal optimization, uncertrainty estimation in regression or classification tasks, transfer or one-shot learning, learning economical ensembles or a set models purposed for different datasets.
 
 
 * Multimodal optimization. *The hypernets trained by our library are capable of finding multiple local minima.*
