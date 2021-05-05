@@ -53,3 +53,34 @@ that is how sure the network in its predictions especially when the new data is 
   </tr>
 </table>
 </p>
+
+
+* Transfer learning.
+
+<p align="center">
+ <table style="width:100%">
+  <tr>
+    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/blank.png" width="width:100%"></td>
+    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/blank.png" width="width:100%"></td>
+  </tr>
+</table>
+</p>
+
+
+* One-shot learning.
+
+
+<p align="center">
+ <table style="width:100%">
+  <tr>
+    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/blank.png" width="width:100%"></td>
+    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/blank.png" width="width:100%"></td>
+  </tr>
+</table>
+</p>
+
+
+
+
+
+
