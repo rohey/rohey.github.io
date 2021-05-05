@@ -3,10 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title:  hypnn
 ---
 
-## boom
-[]: # Welcome to the **hypnn** documentation page !
+##  Welcome to the **hypnn** documentation page !
 
 A neural network that generates weights for other neural networks is called a hypernet. The **hypnn** library allows training hypernets for different purposes such as:
 
