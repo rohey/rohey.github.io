@@ -8,25 +8,37 @@ layout: home
 ## Welcome to the **hypnn** documentation page !
 
 
-The **hypnn** library allows training hypernets, the neural artificial networks that generate weigts for other so called target nets. 
-The **hypnn** library can be used for the following:
+A neural network that generates weights for other neural networks is called a hypernet. The **hypnn** library allows training hypernets for different purposes such as:
 
 
+* Multimodal optimization. *The hypernets trained by our library are capable of finding multiple local minima.*
 
-* Multimodal optimization
 
 
 <p align="center">
-<img alt="Data preprocessing" title="Data preprocessing" src="/assets/anim.gif" width="650">
+ <table style="width:100%">
+  <tr>
+    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/1.gif" width="650"></td>
+    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/3.gif" width="650"></td>
+  </tr>
+</table>
 </p>
 
 
-* Uncertainty estimation in regression tasks
+
+
+* Uncertainty estimation in regression tasks. *The ensembles created by the hypernet allows uncertainty estimation in regression tasks, 
+that is how sure the network in its predictions especially when the new data is not similar to the training data.*
+
 
 <p align="center">
-<img alt="Data preprocessing" title="Data preprocessing" src="/assets/regression.png" width="650">
+ <table style="width:100%">
+  <tr>
+    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/regression.png" width="width:100%"></td>
+    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/regression.png" width="width:100%"></td>
+  </tr>
+</table>
 </p>
 
 
-
-* Uncertainty estimation in classification tasks
+* Uncertainty estimation in classification tasks. *Similar to the regression tasks, the uncertainty tells how sure the network is when classyfying data.*
