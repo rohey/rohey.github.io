@@ -12,9 +12,18 @@ A neural network that generates weights for other neural networks is called a hy
 multimodal optimization, uncertrainty estimation in regression or classification tasks, transfer or one-shot learning, learning economical ensembles or a set models purposed for different datasets.
 
 
+* Strong generalization of ensemble models
+
+
+|               | MNIST         | Fashion-MNIST | CIFAR10  |  CIFAR100  |  KMNIST    |
+| ------------- |:-------------:|:-------------:|:--------:|:----------:|:----------:|
+| single        | 26            |       ?       |    ?     |     ?      |      ?     |
+| hypnn         | 16            |       ?       |    ?     |     ?      |      ?     |
+
+
+
+
 * Multimodal optimization. *The hypernets trained by our library are capable of finding multiple local minima.*
-
-
 
 <p align="center">
  <table style="width:100%">
@@ -78,6 +87,10 @@ that is how sure the network in its predictions especially when the new data is 
   </tr>
 </table>
 </p>
+
+
+The input to the hypernet are the random vectors sampled from posterior distribution. 
+In the hypnn, those are multimodal Gaussian distributions. 
 
 
 
