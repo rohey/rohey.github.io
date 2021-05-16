@@ -14,11 +14,17 @@ multimodal optimization, uncertrainty estimation in regression or classification
 
 * Strong generalization of ensemble models
 
+The major difference between **single** and **hypernn** is 
+that the library **hypenn** is used to boost the accuracy of the **single** model. 
+The neural network architecture, optimizers, mini-batch sizes, and other parameters are all the same in both settings. 
+
 
 |               | MNIST         | Fashion-MNIST | CIFAR10  |  CIFAR100  |  KMNIST    |
 | ------------- |:-------------:|:-------------:|:--------:|:----------:|:----------:|
-| single        | 26            |       ?       |    ?     |     ?      |      ?     |
+| single        | 23            |       ?       |    ?     |     ?      |      ?     |
 | hypnn         | 16            |       ?       |    ?     |     ?      |      ?     |
+
+The validation errors are significantly reduced by using the **hypnn** library.
 
 
 
