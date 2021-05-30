@@ -12,91 +12,100 @@ A neural network that generates weights for other neural networks is called a hy
 multimodal optimization, uncertrainty estimation in regression or classification tasks, transfer or one-shot learning, learning economical ensembles or a set models purposed for different datasets.
 
 
-* Strong generalization of ensemble models
+* ***Strong generalization of ensemble models***
 
-The major difference between **single** and **hypernn** is 
-that the library **hypenn** is used to boost the accuracy of the **single** model. 
-The neural network architecture, optimizers, mini-batch sizes, and other parameters are all the same in both settings. 
-
-
-|               | MNIST         | Fashion-MNIST | CIFAR10  |  CIFAR100  |  KMNIST    |
-| ------------- |:-------------:|:-------------:|:--------:|:----------:|:----------:|
-| single        | 23            |       ?       |    ?     |     ?      |      ?     |
-| hypnn         | 16            |       ?       |    ?     |     ?      |      ?     |
-
-The validation errors are significantly reduced by using the **hypnn** library.
+	The major difference between **single** and **hypernn** is 
+	that the library **hypenn** is used to boost the accuracy of the **single** model. 
+	The neural network architecture, optimizers, mini-batch sizes, and other parameters are all the same in both settings. 
 
 
+	|               | MNIST         | Fashion-MNIST | CIFAR10  |  CIFAR100  |  KMNIST    |
+	| ------------- |:-------------:|:-------------:|:--------:|:----------:|:----------:|
+	| single        | 23            |       ?       |    ?     |     ?      |      ?     |
+	| hypnn         | 15            |       ?       |    ?     |     ?      |      ?     |
 
-
-* Multimodal optimization. *The hypernets trained by our library are capable of finding multiple local minima.*
-
-<p align="center">
- <table style="width:100%">
-  <tr>
-    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/1.gif" width="650"></td>
-    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/3.gif" width="650"></td>
-  </tr>
-</table>
-</p>
+	The validation errors are significantly reduced by using the **hypnn** library.
 
 
 
 
-* Uncertainty estimation in regression tasks. *The ensembles created by the hypernet allows uncertainty estimation in regression tasks, 
-that is how sure the network in its predictions especially when the new data is not similar to the training data.*
+* ***Multimodal optimization***
+
+	The hypernets trained by our library are capable of finding multiple local minima.
+
+	<p align="center">
+	 <table style="width:100%">
+	  <tr>
+	    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/1.gif" width="650"></td>
+	    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/3.gif" width="650"></td>
+	  </tr>
+	</table>
+	</p>
 
 
-<p align="center">
- <table style="width:100%">
-  <tr>
-    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/regression.png" width="width:100%"></td>
-    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/regression.png" width="width:100%"></td>
-  </tr>
-</table>
-</p>
 
 
-* Uncertainty estimation in classification tasks. *Similar to the regression tasks, the uncertainty tells how sure the network is when classyfying data.*
+* ***Uncertainty estimation in regression tasks*** 
+
+	The ensembles created by the hypernet allows uncertainty estimation in regression tasks, 
+	that is how sure the network in its predictions especially when the new data is not similar to the training data.
 
 
-<p align="center">
- <table style="width:100%">
-  <tr>
-    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/Figure_1.png" width="width:100%"></td>
-    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/Figure_2.png" width="width:100%"></td>
-  </tr>
-</table>
-</p>
+	<p align="center">
+	 <table style="width:100%">
+	  <tr>
+	    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/regression.png" width="width:100%"></td>
+	    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/regression.png" width="width:100%"></td>
+	  </tr>
+	</table>
+	</p>
 
 
-* Transfer learning.
+* ***Uncertainty estimation in classification tasks*** 
 
-<p align="center">
- <table style="width:100%">
-  <tr>
-    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/blank.png" width="width:100%"></td>
-    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/blank.png" width="width:100%"></td>
-  </tr>
-</table>
-</p>
+	Similar to the regression tasks, the uncertainty tells how sure the network is when classyfying data.
+
+	<p align="center">
+	 <table style="width:100%">
+	  <tr>
+	    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/Figure_1.png" width="width:100%"></td>
+	    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/Figure_2.png" width="width:100%"></td>
+	  </tr>
+	</table>
+	</p>
 
 
-* One-shot learning.
+* ***Transfer learning***
+
+	<p align="center">
+	 <table style="width:100%">
+	  <tr>
+	    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/blank.png" width="width:100%"></td>
+	    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/blank.png" width="width:100%"></td>
+	  </tr>
+	</table>
+	</p>
 
 
-<p align="center">
- <table style="width:100%">
-  <tr>
-    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/blank.png" width="width:100%"></td>
-    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/blank.png" width="width:100%"></td>
-  </tr>
-</table>
-</p>
+* ***One-shot learning***
+
+
+	<p align="center">
+	 <table style="width:100%">
+	  <tr>
+	    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/blank.png" width="width:100%"></td>
+	    <td><img alt="Data preprocessing" title="Data preprocessing" src="/assets/blank.png" width="width:100%"></td>
+	  </tr>
+	</table>
+	</p>
+
+
+## Mechanism
 
 
 The input to the hypernet are the random vectors sampled from posterior distribution. 
 In the hypnn, those are multimodal Gaussian distributions. 
+
 
 
 
